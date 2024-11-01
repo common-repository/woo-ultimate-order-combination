@@ -1,0 +1,597 @@
+@charset "utf-8";
+
+/* CSS Document */
+a {
+	cursor: pointer;
+}
+
+div.wuoc_settings_div {}
+
+.wuoc_settings_tab {}
+
+.wuoc_settings_tab a {
+	cursor: pointer;
+}
+
+.wrap.wuoc_settings_div h2 > a.gopro {
+	float: right;
+	font-size: 12px;
+	background-color: rgba(155,92,143,0.8);
+	color: #fff;
+	text-decoration: none;
+	padding: 0 20px 2px;
+}
+.wuoc_settings_div .wuoc_optional {
+
+	background: rgba(155, 92, 143, 0.8);
+	border-bottom: 1px solid #ddd;
+	border-bottom-left-radius: 6px;
+	border-left: 1px solid #ddd;
+	border-top-left-radius: 6px;
+	float: right;
+	margin: 20px 0;
+	min-height: 600px;
+	padding: 20px 10px 20px 22px;
+	width: 100%;
+	position: relative;
+	top: 26px;
+
+}
+
+.wuoc_settings_div .wuoc_optional ul li {
+	padding-left: 10px;
+	padding-right: 10px;
+	position:relative;
+}
+.wuoc_settings_div .wuoc_optional ul li a .fa-youtube{
+	color: #f4ef98;
+	font-size: 40px;
+	position: absolute;
+	top: -5px;
+}
+
+.wuoc_settings_div table {
+	margin-top: 30px;
+	width: 100%;
+	border-collapse: collapse;
+	border: 0;
+}
+
+.wuoc_settings_div table.wuoc_general {
+	width: 70%;
+}
+
+.wuoc_settings_div table thead {}
+
+.wuoc_settings_div table thead th {
+	text-align: left;
+}
+
+
+.wuoc_settings_div .wuoc_optional h3 {
+	background: rgba(155, 92, 143, 0.8) none repeat scroll 0 0;
+	border: 0 none;
+	border-top-left-radius: 6px;
+	color: #fff;
+	font-size: 12px;
+	margin: 0;
+	padding: 6px 16px 4px;
+	position: absolute;
+	right: 0;
+	text-transform: uppercase;
+	top: -24px;
+}
+
+.wuoc_settings_div .wuoc_optional p.submit {
+	text-align: center;
+}
+
+.wuoc_settings_div .wuoc_optional p.submit .button {
+	background-color: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+	text-shadow: none;
+	box-shadow: none;
+}
+
+.wuoc_settings_div .wuoc_optional p.submit .button:hover {
+	background-color: rgba(255, 255, 255, 0.2);
+	border: 1px solid #fff;
+}
+
+.wuoc_settings_div .wuoc_optional ul {
+	padding: 0;
+	margin: 0;
+}
+
+.wuoc_settings_div .wuoc_optional ul li {
+	list-style: none;
+	clear: both;
+}
+
+.wuoc_settings_div .wuoc_optional fieldset > ul > li:last-child {
+	background: rgba(0, 0, 0, 0) url("../img/icon-128x128.png") no-repeat scroll 233px 55px / 110px 110px;
+	/* float: right; */
+	/* height: 256px; */
+	/* width: 86%; */
+}
+
+.wuoc_settings_div .wuoc_optional fieldset>ul>li label {
+	padding: 0;
+	margin: 0 0 0 4px;
+	position: relative;
+	top: -1px;
+	font-size: 14px;
+	color: #fff;
+}
+
+.wuoc_settings_div .wuoc_optional fieldset>ul>li input {
+	padding: 0;
+	margin: 0;
+}
+
+.wuoc_settings_div .wuoc_optional fieldset>ul>li label {}
+
+.wuoc_settings_div .wuoc_optional fieldset>ul>li label strong {
+	font-weight: normal;
+}
+
+.wuoc_settings_div .wuoc_optional fieldset>ul>li label strong:nth-child(1),
+.wuoc_settings_div .wuoc_optional ul li.selected label strong:nth-child(2) {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.wuoc_settings_div .wuoc_optional fieldset>ul>li label strong:nth-child(2),
+.wuoc_settings_div .wuoc_optional ul li.selected label strong:nth-child(1) {
+	color: #FF0;
+	font-weight: normal;
+	text-decoration: line-through;
+}
+
+.wuoc_settings_div .wuoc_optional ul li.selected label strong:nth-child(1) {
+	color: #FFF;
+}
+
+.wuoc_settings_div .wuoc_optional ul li.selected label strong:nth-child(2) {
+	color: #FF0;
+}
+
+.wuoc_settings_div a.nav-tab {
+	cursor: pointer;
+}
+
+.wuoc_settings_div .hide {
+	display: none;
+}
+
+.wuoc_settings_div .wuoc_premium {
+	background: url("../img/premium.png");
+	background-repeat: no-repeat;
+	background-position: right 4px center;
+	background-size: 66px;
+	background-color: rgba(255, 255, 255, 0.2);
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+
+.wuoc_list_settings {
+	width: 90%;
+	float: left;
+	background-color: rgba(255, 255, 255, 0.2);
+	margin: 20px 40px 30px 10px;
+	color: #fff;
+	padding: 14px 0;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.wuoc_list_settings>strong {
+	font-weight: bold;
+	background-color: rgba(255, 255, 255, 0.2);
+	width: 100%;
+	float: left;
+	padding: 6px 0;
+	margin: 0 0 14px 0;
+	text-indent: 20px;
+	font-size:12px;
+}
+.wuoc_list_settings > strong svg {
+	float: left;
+	color: #FFF;
+	cursor: pointer;
+	position: relative;
+	left: 10px;
+	font-size: 18px;
+}
+.wuoc_list_settings ul {
+	margin: 10px 0;
+}
+
+.wuoc_list_settings ul li {
+	width: 100%;
+	float: left;
+}
+
+.wuoc_parent:after {
+	content: "\f157" !important;
+	background-color: rgba(155, 92, 143, 0.3);
+	color: white;
+}
+
+.wuoc_parent.selected:after {
+	content: "\f157" !important;
+	background-color: #9B5C8F;
+	color: white;
+}
+
+.wuoc_analyze_result {
+	border: 1px solid #dddddd;
+	border-radius: 10px;
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	box-shadow: 0px 0px 8px 2px #dbcfd9;;
+}
+
+.wuoc_analyze_box {
+	width: 100%;
+	max-height: 650px;
+	overflow-y: auto;
+}
+
+.wuoc_analyze_result_heading {
+
+	background:#af7da5;
+	color:white;
+	padding: 10px;
+	border-radius: 2px;
+	position: relative;
+
+}
+
+.wuoc_search_box_wrapper{
+	position: absolute;
+	right: 5px;
+	top:4px;
+}
+
+.wuoc_search_box{
+	float: right;
+	border-radius: 5px;
+	height: 35px;
+}
+
+.wuoc-uncombined-btn{
+	background-color: #e5e5e5;
+	color: black;
+	border-color:  #e5e5e5;
+}
+
+.wuoc-uncombined-btn:hover{
+	background-color: #d5d5d5;	
+}
+
+.wuoc_analyze_box ul{
+	clear: both;
+}
+
+.wuoc_analyze_box div[id^="heading-"] a,
+.wuoc_analyze_box div[id^="heading-"]
+{
+	font-size: medium;
+}
+.wuoc_settings_div .inner-group ul li.list-group-item > a {
+	width: 230px;
+	display: inline-block;
+}
+.wuoc_settings_div .inner-group ul li b {
+	font-weight: normal;
+	margin: 0 0 0 60px;
+	font-size:12px;
+}
+
+/*Accordion Start*/
+
+.wuoc_settings_div .accordion {	
+	color: #ffffff;
+	cursor: pointer;
+	padding: 10px 18px;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+	position: relative;	
+	font-size: 20px;
+}
+.accordion_row_wrapper .accordion_row button.accordion,
+.accordion_row_wrapper .accordion_row button.accordion:hover {
+	background-color: #af7da5;
+	border-bottom: 1px solid #b38bad;
+}
+.accordion_row_wrapper .accordion_row:nth-child(2) button.accordion,
+.accordion_row_wrapper .accordion_row:nth-child(2) button.accordion:hover {
+	background-color: #6cc6d5;
+	border-bottom: 1px solid #47939f;
+}
+.accordion_row_wrapper .accordion_row:nth-child(3) button.accordion,
+.accordion_row_wrapper .accordion_row:nth-child(4) button.accordion:hover {
+	background-color: #7ed56c;
+	border-bottom: 1px solid #6dc15c;
+}
+.accordion_row_wrapper .accordion_row:nth-child(4) button.accordion,
+.accordion_row_wrapper .accordion_row:nth-child(4) button.accordion:hover {
+	background-color: #6c7cd5;
+	border-bottom: 1px solid #4a3abd;
+}
+
+
+.wuoc_settings_div .accordion .dashicons {
+
+	position: absolute;
+	right: 15px;
+	top: 14px;
+}
+
+
+.wuoc_settings_div .accordion.first .plus {
+
+	display: none;
+}
+
+.wuoc_settings_div .accordion:not(.first) .minus {
+
+	display: none;
+}
+
+
+.wuoc_settings_div .panel {
+	padding: 0 18px 30px 18px;
+	background-color: white;
+	border: 1px solid lightgrey;
+}
+
+.wuoc_settings_div .panel:not(.first){
+	display: none;
+
+}
+
+.wuoc_settings_div .accordion_wrapper{
+
+	box-shadow: 0 0 10px #b7b7b7;
+
+}
+
+
+/*Accordion END*/
+
+/*Checkbox Switch*/
+
+/* The switch - the box around the slider */
+.wuoc_switch {
+	position: relative;
+	display: inline-block;
+	width: 50px;
+	height: 20px;
+}
+
+/* Hide default HTML checkbox */
+.wuoc_switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+/* The slider */
+.wuoc_slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+.wuoc_slider:before {
+	position: absolute;
+	content: "";
+	height: 15px;
+	width: 15px;
+	left: 5px;
+	bottom: 2px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+input:checked + .wuoc_slider {
+	background-color: #2196F3;
+}
+
+input:focus + .wuoc_slider {
+	box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .wuoc_slider:before {
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.wuoc_slider.wuoc_round {
+	border-radius: 15px;
+}
+
+.wuoc_slider.wuoc_round:before {
+	border-radius: 50%;
+}
+div.accordion_wrapper div.rules_row ul strong{
+	font-weight:normal;
+}
+table.wp-list-table td.order_date {
+	position: relative;
+}
+table.wp-list-table td.order_date i.wuoc-sniffed {
+	right: 10px;
+	position: absolute;
+	top: 22px;
+	font-size: 16px;
+	color: #9B5C8F;
+}
+table.wp-list-table td.order_date i.wuoc-combined {
+	right: 10px;
+	position: absolute;
+	top: 0px;
+	font-size: 16px;
+	color: #38C18E;
+}
+div.wuoc_settings_div h2.nav-tab-wrapper a[data-tab="help"]{
+	float:right;
+}
+div.wuoc_settings_div label svg,
+div.wuoc_auto_combined div.rules div.h5 svg{
+	color:#06C;
+}
+
+#wuoc_auto_delete_original_orders svg{
+	color:#900;
+}
+div.wuoc_settings_div label[for*="_billing_address_index"] svg,
+div.wuoc_settings_div label[for*="_shipping_address_index"] svg{
+	color: #8F8C01;
+}
+label[for*="_billing_address_index"] input:checked + .wuoc_slider,
+label[for*="_shipping_address_index"] input:checked + .wuoc_slider{
+	background-color: #8F8C01;
+}
+div.wuoc_settings_div label[for*="_billing_phone"] svg,
+div.wuoc_settings_div label[for*="_shipping_phone"] svg{
+	color: #090;
+}
+label[for*="_billing_phone"] input:checked + .wuoc_slider,
+label[for*="_shipping_phone"] input:checked + .wuoc_slider{
+	background-color: #090;
+}
+div.wuoc_settings_div label[for*="_billing_email"] svg,
+div.wuoc_settings_div label[for*="_shipping_email"] svg{
+	color: #C30;
+}
+label[for*="_billing_email"] input:checked + .wuoc_slider,
+label[for*="_shipping_email"] input:checked + .wuoc_slider{
+	background-color: #C30;
+}
+.wuos-youtube-link{
+	float: right;
+	font-size: 12px;
+	text-decoration: none;
+	color: red;
+}
+ul.wuoc_debug_log  {
+	height: 600px;
+	overflow-y: auto;
+	margin:0;
+	padding:0;
+}
+ul.wuoc_debug_log li{
+}
+ul.wuoc_debug_log li small{
+	color:#4200FF;
+}
+#wuoc_auto_delete_original_orders ul li{
+	position:relative;
+}
+#wuoc_auto_delete_original_orders ul li label.wuoc_original_order_status {
+	background-color: #9d4d8c36;
+	padding: 10px 40px 20px;
+	border-radius: 6px;
+	position: absolute;
+	left: 310px;
+	top: 0;
+	display:none;
+}
+#wuoc_auto_delete_original_orders ul li.selected label.wuoc_original_order_status{
+	display:block;
+}
+#wuoc_auto_delete_original_orders ul li label select{
+	margin:10px 0 0 0;
+	width:200px;
+}
+.wuoc_settings_div .accordion svg.green{
+	color:#090;
+}
+.wuoc_settings_div .accordion svg.gray{
+	color:#999;
+}
+.wuoc_settings_div .accordion .auto_combine_status{
+	margin-left:10px;
+}
+.wuoc_settings_div .wuoc_auto_combine_layers{
+	float:right;
+}
+.wuoc_settings_div .wuoc_auto_combine_layers svg {
+	color: #2693bd;
+	margin: 0 10px 0 0;
+}
+.wuoc_settings_div .wuoc_auto_combine_layers input {
+	width: 60px;
+	height: 32px;
+	font-size: 14px;
+	border: 0px;
+}
+.wuoc-yellow{
+	color:#FF3;
+	font-size:18px;
+	font-family:"Courier New", Courier, monospace;
+	padding:0 0 0 20px;
+}
+.wuoc-yellow svg{
+	font-size:14px;
+}
+
+.wuoc-meta-filter,
+.wuoc_transparent_field_wrapper {
+	background-color: rgba(155, 92, 143, 0.8);
+	color: #fff;
+	display: inline-block;
+	padding: 2px 10px;
+	border-radius: 14px;
+	margin: 0 10px 0 0;
+}
+.wuoc-meta-filter input[type="text"],
+.wuoc_transparent_field_wrapper input[type="text"]{
+	height:14px;
+	width:160px;
+	font-size:12px;
+	background-color:rgba(255,255,255,0.3);
+	color:#fff;
+	border:0;
+}
+
+.wuoc-meta-filter input[type="text"]::placeholder,
+.wuoc_transparent_field_wrapper input[type="text"]::placeholder {
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+
+.wuoc-meta-filter input[type="text"]::-ms-input-placeholder { /* Edge 12 -18 */
+  color: #fff;
+}
+.wuoc_cron_settings .cron-settings-wrapper{
+	
+}
+.wuoc_cron_settings .cron-settings-wrapper{
+	margin:0; 
+	padding:0;	
+}
+.wuoc_cron_settings .cron-settings-wrapper label{
+	width:180px;
+}
+.wuoc_cron_settings .wuoc-timepicker{
+	display:none;
+}

@@ -1,0 +1,16 @@
+.wc_os_parent::after {
+    content: "\f157" !important;
+    background-color: rgba(155,92,143, 0.3);
+    color: white;
+}
+
+.wc_os_parent.selected:after {
+    content: "\f157" !important;
+    background-color: #9B5C8F;
+    color: white;
+}
+
+
+
+
+

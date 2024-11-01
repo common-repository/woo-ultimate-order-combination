@@ -1,0 +1,739 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-12-13 23:57+0500\n"
+"PO-Revision-Date: 2021-12-14 00:09+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: pro\n"
+"X-Poedit-SearchPath-1: inc\n"
+
+#: inc/functions-plus.php:45
+msgid "Combine Selected Orders"
+msgstr "Kombinieren Sie ausgewählte Bestellungen"
+
+#: inc/functions.php:43 pro/wuoc-pro.php:608 pro/wuoc-pro.php:1267
+#: pro/wuoc-pro.php:1298 pro/wuoc-pro.php:2175
+msgid "Sorry, your nonce did not verify."
+msgstr "Entschuldigung, Ihre Nonce hat nicht überprüft."
+
+#: inc/functions.php:191
+msgid "Child Order"
+msgstr "Kinderordnung"
+
+#: inc/functions.php:249 pro/wuoc-pro.php:710 pro/wuoc-pro.php:715
+#: pro/wuoc-pro.php:727
+msgid "Parent Order"
+msgstr "Bestellung geklont"
+
+#: inc/functions.php:712
+msgid "Order Cloned."
+msgstr "übergeordnete Reihenfolge"
+
+#: inc/functions.php:721
+msgid "Duplication failed, an error has occurred."
+msgstr "Duplizierung fehlgeschlagen, ein Fehler ist aufgetreten."
+
+#: inc/functions.php:862
+msgid "Orders Combination"
+msgstr "Auftragskombination"
+
+#: inc/functions.php:876 inc/wuoc_settings.php:5
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+"Sie haben nicht genügend Berechtigungen, um auf diese Seite zuzugreifen."
+
+#: inc/functions.php:900 inc/wuoc_settings.php:29 pro/wuoc-pro.php:1854
+msgid "Settings"
+msgstr "die Einstellungen"
+
+#: inc/functions.php:907 inc/wuoc_settings.php:29 inc/wuoc_settings.php:256
+#: inc/wuoc_settings.php:268 inc/wuoc_settings.php:282
+msgid "Go Premium"
+msgstr "Gehen Sie Premium"
+
+#: inc/functions.php:1075
+msgid ""
+"Are you sure, you want to delete the merged orders permanently which belong "
+"to the selected orders?"
+msgstr ""
+"Sind Sie sicher, Sie möchten die fusionierten Bestellungen dauerhaft "
+"löschen, die zu den ausgewählten Bestellungen gehören?"
+
+#: inc/wuoc-emails.php:44
+msgid "Following orders are combined into order#"
+msgstr "Folgende Bestellungen werden zu Bestellnummer zusammengefasst#"
+
+#: inc/wuoc-emails.php:45
+msgid "Following orders are combined into one order#"
+msgstr "Folgende Bestellungen werden zu einer Bestellnummer zusammengefasst#"
+
+#: inc/wuoc-emails.php:60
+msgid ""
+"Order items will remain intact, same product (items) will be merged and "
+"quantity will be incremented."
+msgstr ""
+"Bestellartikel bleiben erhalten, dasselbe Produkt (dieselben Artikel) werden "
+"zusammengeführt und die Menge wird erhöht."
+
+#: inc/wuoc-emails.php:62
+msgid "Click here"
+msgstr "Klicke hier"
+
+#: inc/wuoc-emails.php:62
+msgid "to check your orders status in your account."
+msgstr "um Ihren Bestellstatus in Ihrem Konto zu überprüfen."
+
+#: inc/wuoc_settings.php:1
+msgid "No script kiddies please!"
+msgstr "Bitte keine Skriptkinder!"
+
+#: inc/wuoc_settings.php:29
+msgid "Pro"
+msgstr "Profi"
+
+#: inc/wuoc_settings.php:34
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: inc/wuoc_settings.php:35
+msgid "Automation"
+msgstr "Automatisierung"
+
+#: inc/wuoc_settings.php:36
+msgid "Combined Orders"
+msgstr "Kombinierte Bestellungen"
+
+#: inc/wuoc_settings.php:37
+msgid "Trashed Orders"
+msgstr "Papierkorb"
+
+#: inc/wuoc_settings.php:38
+msgid "Cron Jobs"
+msgstr "Zeitgesteuerte Aufgaben"
+
+#: inc/wuoc_settings.php:39
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: inc/wuoc_settings.php:40
+msgid "Help"
+msgstr "Hilfe"
+
+#: inc/wuoc_settings.php:50
+msgid "You need WooCommerce plugin to be installed and activated."
+msgstr ""
+"Sie benötigen das WooCommerce-Plugin, um installiert und aktiviert zu werden."
+
+#: inc/wuoc_settings.php:50
+msgid "Please"
+msgstr "Bitte"
+
+#: inc/wuoc_settings.php:50
+msgid "Install"
+msgstr "Installieren"
+
+#: inc/wuoc_settings.php:50
+msgid "and"
+msgstr "und"
+
+#: inc/wuoc_settings.php:50
+msgid "or"
+msgstr "oder"
+
+#: inc/wuoc_settings.php:50
+msgid "Activate"
+msgstr "aktivieren Sie"
+
+#: inc/wuoc_settings.php:50
+msgid "plugin to proceed"
+msgstr "Plugin um fortzufahren"
+
+#: inc/wuoc_settings.php:83 pro/wuoc-pro.php:1376 pro/wuoc-pro.php:1464
+msgid "Info!"
+msgstr "Die Info!"
+
+#: inc/wuoc_settings.php:83
+msgid "This video tutorial is about Premium Version."
+msgstr "In diesem Video-Tutorial geht es um die Premium-Version."
+
+#: inc/wuoc_settings.php:96 pro/wuoc-pro.php:2024
+msgid "Optional"
+msgstr "Optional"
+
+#: inc/wuoc_settings.php:99 inc/wuoc_settings.php:237 pro/wuoc-pro.php:2056
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: inc/wuoc_settings.php:103
+msgid "Combine Settings"
+msgstr "Einstellungen kombinieren"
+
+#: inc/wuoc_settings.php:107
+msgid "Keep Order Items Separate using Attributes and Values"
+msgstr ""
+"Bestellen Sie die Auftragsgegenstände mit den Attributen und Werten trennen"
+
+#: inc/wuoc_settings.php:107 inc/wuoc_settings.php:133
+#: inc/wuoc_settings.php:139 inc/wuoc_settings.php:153
+#: inc/wuoc_settings.php:167 inc/wuoc_settings.php:173
+#: inc/wuoc_settings.php:187 inc/wuoc_settings.php:202
+#: inc/wuoc_settings.php:214 inc/wuoc_settings.php:219
+#: inc/wuoc_settings.php:224
+msgid "Off"
+msgstr "aus"
+
+#: inc/wuoc_settings.php:107 inc/wuoc_settings.php:133
+#: inc/wuoc_settings.php:139 inc/wuoc_settings.php:153
+#: inc/wuoc_settings.php:167 inc/wuoc_settings.php:173
+#: inc/wuoc_settings.php:187 inc/wuoc_settings.php:202
+#: inc/wuoc_settings.php:214 inc/wuoc_settings.php:219
+#: inc/wuoc_settings.php:224
+msgid "On"
+msgstr "Auf"
+
+#: inc/wuoc_settings.php:113
+msgid "Shipping"
+msgstr "Versand"
+
+#: inc/wuoc_settings.php:115
+msgid "Default"
+msgstr "Standard"
+
+#: inc/wuoc_settings.php:116
+msgid "No Shipping"
+msgstr "Kein Versand"
+
+#: inc/wuoc_settings.php:117
+msgid "Combine Shipping"
+msgstr "Kombinieren Sie den Versand"
+
+#: inc/wuoc_settings.php:118
+msgid "Separate Shipping"
+msgstr "Separater Versand"
+
+#: inc/wuoc_settings.php:119
+msgid "Highest Shipping"
+msgstr "Höchster versand"
+
+#: inc/wuoc_settings.php:121
+msgid "Video Tutorial - How Shipping option works?"
+msgstr "Video-Tutorial - Wie funktioniert die Versandoption?"
+
+#: inc/wuoc_settings.php:129
+msgid "Cron Settings"
+msgstr "Cron-Einstellungen"
+
+#: inc/wuoc_settings.php:129 inc/wuoc_settings.php:149
+#: inc/wuoc_settings.php:163
+msgid "Premium Features"
+msgstr "Premium-Funktionen"
+
+#: inc/wuoc_settings.php:133
+msgid "Thankyou Page / Order Received Page"
+msgstr "Danke, Seite / Bestellung erhaltene Seite"
+
+#: inc/wuoc_settings.php:139
+msgid "Orders List Page / Admin Panel"
+msgstr "Bestellungsliste Seite / Admin-Panel"
+
+#: inc/wuoc_settings.php:149
+msgid "Orders List"
+msgstr "Bestellliste"
+
+#: inc/wuoc_settings.php:153
+msgid "Move existing orders to trash on combine (bulk options)"
+msgstr "Bewegen Sie vorhandene Bestellungen in den Mülleimern (Massenoptionen)"
+
+#: inc/wuoc_settings.php:163
+msgid "Orders Meta"
+msgstr "Bestellungen Meta"
+
+#: inc/wuoc_settings.php:167
+msgid "Display Meta data from merged orders on edit page"
+msgstr ""
+"META-Daten anzeigen von zusammengeführten Bestellungen auf der "
+"Bearbeitungsseite"
+
+#: inc/wuoc_settings.php:173
+msgid "Display Items History from merged orders on edit page"
+msgstr ""
+"Artikel-Verlauf anzeigen von zusammengeführten Bestellungen auf der Seite "
+"Bearbeiten"
+
+#: inc/wuoc_settings.php:183
+msgid "Appearance"
+msgstr "Das Auftreten"
+
+#: inc/wuoc_settings.php:187
+msgid "Bootstrap"
+msgstr "Bootstrap"
+
+#: inc/wuoc_settings.php:198
+msgid "Send email notifications to customer"
+msgstr "Senden Sie E-Mail-Benachrichtigungen an den Kunden"
+
+#: inc/wuoc_settings.php:202
+msgid "Orders Combined"
+msgstr "Bestellungen kombiniert"
+
+#: inc/wuoc_settings.php:210
+msgid "Send email notifications to admin"
+msgstr "Senden Sie E-Mail-Benachrichtigungen an admin"
+
+#: inc/wuoc_settings.php:214
+msgid "Product out of stock"
+msgstr "Produkt aus der Lagerware"
+
+#: inc/wuoc_settings.php:219
+msgid "Product backorder"
+msgstr "Produktrührer"
+
+#: inc/wuoc_settings.php:224
+msgid "New Order"
+msgstr "Neue Ordnung"
+
+#: inc/wuoc_settings.php:256
+msgid ""
+"Automation is a premium feature in which you can define/set rules to combine "
+"upcoming orders with existing orders."
+msgstr ""
+"Automatisierung ist eine Premium-Funktion, in der Sie Regeln definieren / "
+"festlegen können, um bevorstehende Bestellungen mit vorhandenen Bestellungen "
+"zu kombinieren."
+
+#: inc/wuoc_settings.php:268
+msgid ""
+"Combined Orders tab will show a list of combined orders history. You can "
+"track all combined orders and the relevant parent/original order details."
+msgstr ""
+"Die Registerkarte \"Kombinierte Bestellungen\" zeigt eine Liste der "
+"kombinierten Bestellungshistorie an. Sie können alle kombinierten "
+"Bestellungen und die entsprechenden Eltern- / Originalbestelldetails "
+"verfolgen."
+
+#: inc/wuoc_settings.php:282
+msgid ""
+"Trashed Orders tab will show a list of trashed orders which can be restored "
+"as well. This feature will help you to undo trashed action."
+msgstr ""
+"Die Registerkarte Mulded-Bestellungen zeigt eine Liste von "
+"Papierkorbaufträgen, die auch wiederhergestellt werden können. Diese "
+"Funktion hilft Ihnen dabei, die Müllwirkung rückgängig zu machen."
+
+#: inc/wuoc_settings.php:308
+msgid ""
+"This plugin is compatible with Gravity Forms. Click on PDF and PPSX file to "
+"see it in action."
+msgstr ""
+"Dieses Plugin ist mit Schwerkraftformen kompatibel. Klicken Sie auf PDF- und "
+"PPSX-Datei, um es in Aktion anzuzeigen."
+
+#: inc/wuoc_settings.php:325
+msgid "Open a Ticket on Support Forums"
+msgstr "Öffnen Sie ein Ticket auf Support-Foren"
+
+#: inc/wuoc_settings.php:326
+msgid "Contact Developer"
+msgstr "Kontaktentwickler"
+
+#: inc/wuoc_settings.php:327
+msgid "Need Urgent Help?"
+msgstr "Brauche dringende Hilfe?"
+
+#: pro/wuoc-pro.php:154 pro/wuoc-pro.php:179 pro/wuoc-pro.php:534
+#: pro/wuoc-pro.php:558 pro/wuoc-pro.php:879 pro/wuoc-pro.php:1058
+#: pro/wuoc-pro.php:1931
+msgid "None"
+msgstr "Keiner"
+
+#: pro/wuoc-pro.php:154 pro/wuoc-pro.php:179 pro/wuoc-pro.php:879
+#: pro/wuoc-pro.php:1058
+msgid "Select All"
+msgstr "Wählen Sie Alle"
+
+#: pro/wuoc-pro.php:179
+msgid "out of"
+msgstr "aus"
+
+#: pro/wuoc-pro.php:227
+msgid "Order"
+msgstr "Bestellung"
+
+#: pro/wuoc-pro.php:231
+msgid "Clone meta from this order"
+msgstr "Klonen Sie Meta aus dieser Reihenfolge"
+
+#: pro/wuoc-pro.php:231
+msgid "Consider Parent"
+msgstr "Betrachten Sie Eltern"
+
+#: pro/wuoc-pro.php:250
+msgid "No Order"
+msgstr "Keine Bestellung"
+
+#: pro/wuoc-pro.php:289
+msgid "Order#"
+msgstr "Bestellung#"
+
+#: pro/wuoc-pro.php:289
+msgid "created by combining "
+msgstr "erstellt durch kombinieren "
+
+#: pro/wuoc-pro.php:312
+msgid "order removed after combination process"
+msgstr "Bestellung nach Kombinationsvorgang entfernt"
+
+#: pro/wuoc-pro.php:312
+msgid "orders removed after combination process"
+msgstr "Bestellungen nach Kombinationsvorgang entfernt"
+
+#: pro/wuoc-pro.php:313
+msgid " Click here to view in trash"
+msgstr " Klicken Sie hier, um den Papierkorb anzuzeigen"
+
+#: pro/wuoc-pro.php:317
+msgid "order removed permanently after combination process."
+msgstr "Bestellung nach Kombinationsvorgang dauerhaft entfernt."
+
+#: pro/wuoc-pro.php:317
+msgid "orders removed permanently after combination process."
+msgstr "Bestellungen werden nach dem Kombinationsvorgang endgültig entfernt."
+
+#: pro/wuoc-pro.php:345
+msgid "Combine by billing phone"
+msgstr "Kombinieren Sie von Abrechnungsruf"
+
+#: pro/wuoc-pro.php:346
+msgid "Combine by shipping phone"
+msgstr "Kombinieren Sie mit dem Versand Telefon"
+
+#: pro/wuoc-pro.php:347
+msgid "Combine by same billing email"
+msgstr "Kombinieren Sie mit derselben Abrechnungs-E-Mail"
+
+#: pro/wuoc-pro.php:348
+msgid "Combine by same shipping email"
+msgstr "Kombinieren Sie in derselben Versand-E-Mail"
+
+#: pro/wuoc-pro.php:349
+msgid "Combine by same billing address"
+msgstr "Kombinieren Sie mit derselben Rechnungsadresse"
+
+#: pro/wuoc-pro.php:350
+msgid "Combine by same shipping address"
+msgstr "Kombinieren Sie an derselben Versandadresse"
+
+#: pro/wuoc-pro.php:351
+msgid "Combine by same IP address"
+msgstr "Kombinieren Sie mit derselben IP-Adresse"
+
+#: pro/wuoc-pro.php:352
+msgid "Combine by same customer user"
+msgstr "Kombinieren Sie mit demselben Kundenbenutzer"
+
+#: pro/wuoc-pro.php:357
+msgid "Combine by same products"
+msgstr "Kombinieren Sie von denselben Produkten"
+
+#: pro/wuoc-pro.php:358
+msgid "Consider orders placed within last N number of days"
+msgstr ""
+"Berücksichtigen Sie die Bestellungen innerhalb der letzten n Anzahl der Tage"
+
+#: pro/wuoc-pro.php:359
+msgid "Combine orders related to logged in user only"
+msgstr ""
+"Kombinieren Sie Bestellungen, die sich auf den angemeldeten Benutzer nur "
+"angemeldet haben"
+
+#: pro/wuoc-pro.php:365
+msgid "Combine by Gravity Form Product Based Meta Values"
+msgstr "Kombinieren Sie durch Schwerkraftform produktbasierte Meta-Werte"
+
+#: pro/wuoc-pro.php:398
+msgid "Analyze"
+msgstr "Analysieren"
+
+#: pro/wuoc-pro.php:406
+msgid "Process"
+msgstr "Prozess"
+
+#: pro/wuoc-pro.php:422
+msgid "Combine by Customer Id"
+msgstr "Nach Kunden-ID kombinieren"
+
+#: pro/wuoc-pro.php:423
+msgid "Combine by Email"
+msgstr "Per E-Mail kombinieren"
+
+#: pro/wuoc-pro.php:424
+msgid "Combine by Phone"
+msgstr "Per Telefon kombinieren"
+
+#: pro/wuoc-pro.php:425
+msgid "Combine by Billing"
+msgstr "Kombinieren Sie durch Abrechnung"
+
+#: pro/wuoc-pro.php:426
+msgid "Combine by Shipping"
+msgstr "Kombinieren Sie per Versand"
+
+#: pro/wuoc-pro.php:468
+msgid "Video Tutorial"
+msgstr "Videoanleitung"
+
+#: pro/wuoc-pro.php:469
+msgid "Process Only (Order Status) With"
+msgstr "Nur verarbeiten (Auftragsstatus) Mit"
+
+#: pro/wuoc-pro.php:486
+msgid "Order Combination Criteria"
+msgstr "Bestellen Kombination Kriterien"
+
+#: pro/wuoc-pro.php:502 pro/wuoc-pro.php:531
+msgid "Drag and drop to change the priority"
+msgstr "Ziehen und Ablegen, um die Priorität zu ändern"
+
+#: pro/wuoc-pro.php:528
+msgid "Display Meta Key Columns"
+msgstr "Meta-Schlüsselspalten anzeigen"
+
+#: pro/wuoc-pro.php:553 pro/wuoc-pro.php:1925
+msgid "What to do with existing orders?"
+msgstr "Was ist mit vorhandenen Bestellungen zu tun?"
+
+#: pro/wuoc-pro.php:558 pro/wuoc-pro.php:1931
+msgid "Archive"
+msgstr "Archiv"
+
+#: pro/wuoc-pro.php:561 pro/wuoc-pro.php:1937
+msgid "Delete existing orders permanently"
+msgstr "Bestehende Bestellungen dauerhaft löschen"
+
+#: pro/wuoc-pro.php:564 pro/wuoc-pro.php:1934
+msgid "Move existing orders to trash"
+msgstr "Bewegen Sie bestehende Bestellungen in den Papierkorb"
+
+#: pro/wuoc-pro.php:567 pro/wuoc-pro.php:1910
+msgid "Meta keys from selected orders"
+msgstr "Meta-Schlüssel aus ausgewählten Bestellungen"
+
+#: pro/wuoc-pro.php:572
+msgid "Keep/Retain all meta keys from selected orders."
+msgstr "Behalten Sie alle Meta-Schlüssel aus ausgewählten Bestellungen bei."
+
+#: pro/wuoc-pro.php:584
+msgid "Expected Results"
+msgstr "Erwartete Ergebnisse"
+
+#: pro/wuoc-pro.php:674
+msgid "Sniffed at"
+msgstr "Aufknüpft"
+
+#: pro/wuoc-pro.php:678
+msgid "Combined at"
+msgstr "Zusammengefasst"
+
+#: pro/wuoc-pro.php:710
+msgid "Combined Order"
+msgstr "Kombinierte Bestellung"
+
+#: pro/wuoc-pro.php:879
+msgid "Combined Orders List"
+msgstr "Liste der kombinierten Bestellungen"
+
+#: pro/wuoc-pro.php:883 pro/wuoc-pro.php:1061
+msgid "Info"
+msgstr "Die Info"
+
+#: pro/wuoc-pro.php:883
+msgid ""
+"Combined orders cannot be considered for another combination by default to "
+"prevent endless loop."
+msgstr ""
+"Kombinierte Aufträge können standardmäßig nicht für eine andere Kombination "
+"berücksichtigt werden, um eine Endlosschleife zu verhindern."
+
+#: pro/wuoc-pro.php:883
+msgid ""
+"In case you need any combined item back in orders list to combine, either "
+"use bulk options from orders list under WooCommerce or restore from here."
+msgstr ""
+"Wenn Sie einen kombinierten Artikel zum Kombinieren wieder in der "
+"Bestellliste benötigen, verwenden Sie entweder Massenoptionen aus der "
+"Bestellliste unter WooCommerce oder stellen Sie ihn von hier aus wieder her."
+
+#: pro/wuoc-pro.php:889
+msgid "First"
+msgstr "Zuerst"
+
+#: pro/wuoc-pro.php:890
+msgid "Prev"
+msgstr "Pflanzig"
+
+#: pro/wuoc-pro.php:892
+msgid "Next"
+msgstr "Nächste"
+
+#: pro/wuoc-pro.php:893
+msgid "Last"
+msgstr "Zuletzt"
+
+#: pro/wuoc-pro.php:917
+msgid "There are no combined order items in this list yet."
+msgstr "Diese Liste enthält noch keine kombinierten Bestellpositionen."
+
+#: pro/wuoc-pro.php:941 pro/wuoc-pro.php:955
+msgid "Restore selected orders"
+msgstr "Stellen Sie ausgewählte Bestellungen wieder her"
+
+#: pro/wuoc-pro.php:947 pro/wuoc-pro.php:1126
+msgid "Loading"
+msgstr "Wird geladen"
+
+#: pro/wuoc-pro.php:969
+msgid "Sorry, your nonce did not verify."
+msgstr "Entschuldigung, Ihre Nonce hat nicht überprüft."
+
+#: pro/wuoc-pro.php:1058
+msgid "Trashed Orders List"
+msgstr "Liste der verworfenen Bestellungen"
+
+#: pro/wuoc-pro.php:1061
+msgid ""
+"These orders are trashed when you check \"Move original orders to trash\" "
+"while combining the order, from here you can restore or delete permanently."
+msgstr ""
+"Diese Bestellungen werden verworfen, wenn Sie beim Kombinieren der "
+"Bestellung die Option \"Originalbestellungen in den Papierkorb verschieben\" "
+"aktivieren. Von hier aus können Sie sie dauerhaft wiederherstellen oder "
+"löschen."
+
+#: pro/wuoc-pro.php:1079
+#, php-format
+msgid "Restore or Delete permanently all of %s orders belong to current order."
+msgstr ""
+"Alle Bestellungen von% s dauerhaft wiederherstellen oder löschen, gehören "
+"zur aktuellen Bestellung."
+
+#: pro/wuoc-pro.php:1091
+msgid "There are no trash order items in this list yet."
+msgstr "Diese Liste enthält noch keine Papierkorbartikel."
+
+#: pro/wuoc-pro.php:1117 pro/wuoc-pro.php:1135
+msgid "Restore"
+msgstr "Wiederherstellen"
+
+#: pro/wuoc-pro.php:1118 pro/wuoc-pro.php:1119 pro/wuoc-pro.php:1136
+#: pro/wuoc-pro.php:1137
+msgid "Delete Permanently"
+msgstr "Dauerhaft löschen"
+
+#: pro/wuoc-pro.php:1339
+msgid "Metadata from Combined Orders"
+msgstr "Metadaten aus kombinierten Bestellungen"
+
+#: pro/wuoc-pro.php:1376
+msgid ""
+"All metadata keys and values captured from the combinded orders. Collapsible "
+"list of meta_key items are available."
+msgstr ""
+"Alle Metadatenschlüssel und -werte, die von den mitgelieferten Bestellungen "
+"erfasst werden. Die zusammenklappbare Liste der Meta_Key-Elemente sind "
+"verfügbar."
+
+#: pro/wuoc-pro.php:1390
+msgid "Click to show orders meta"
+msgstr "Klicken Sie hier, um das Meta der Bestellungen anzuzeigen"
+
+#: pro/wuoc-pro.php:1438
+msgid "Combined Orders Items History"
+msgstr "Kombinierte Bestellungen der Bestellungen"
+
+#: pro/wuoc-pro.php:1464
+msgid ""
+"These items were merged as one order. Following iteration should be "
+"considered as a snapshot, it will remain same with all of the values."
+msgstr ""
+"Diese Artikel wurden als eine Bestellung zusammengeführt. Die folgende "
+"Iteration sollte als Snapshot betrachtet werden, es bleibt mit allen Werten "
+"gleich."
+
+#: pro/wuoc-pro.php:1482
+msgid "Order #"
+msgstr "Befehl #"
+
+#: pro/wuoc-pro.php:1482
+msgid "Items with meta"
+msgstr "Artikel mit Meta"
+
+#: pro/wuoc-pro.php:1491
+msgid "Cost"
+msgstr "Kosten"
+
+#: pro/wuoc-pro.php:1492
+msgid "Qty"
+msgstr "Attiert"
+
+#: pro/wuoc-pro.php:1493
+msgid "Total"
+msgstr "Gesamt"
+
+#: pro/wuoc-pro.php:1609
+msgid "Variation ID"
+msgstr "Variation-ID"
+
+#: pro/wuoc-pro.php:1843
+msgid "Automation settings"
+msgstr "Automatisierungseinstellungen"
+
+#: pro/wuoc-pro.php:1863
+msgid "Auto Combined"
+msgstr "Auto kombiniert"
+
+#: pro/wuoc-pro.php:1878
+msgid "Order Statuses"
+msgstr "Bestellstatus"
+
+#: pro/wuoc-pro.php:1951
+msgid "Rules"
+msgstr "Regeln"
+
+#: pro/wuoc-pro.php:1971
+msgid "Required"
+msgstr "Erforderlich"
+
+#: pro/wuoc-pro.php:1971
+msgid "*At least one rule required from this list"
+msgstr "* Mindestens eine Regel, die aus dieser Liste erforderlich ist"
+
+#: pro/wuoc-pro.php:2054
+msgid "Please choose at least one rule from the required set of rules."
+msgstr ""
+"Bitte wählen Sie mindestens eine Regel aus den erforderlichen Regeln fest."
+
+#: pro/wuoc-pro.php:2089
+msgid "Click here to expand all forms"
+msgstr "Klicken Sie hier, um alle Formulare zu erweitern"
+
+#: pro/wuoc-pro.php:2213
+msgid "Settings Saved!"
+msgstr "Einstellungen gespeichert!"
+
+#~ msgid "Show retained meta at order edit page"
+#~ msgstr "Beibehaltenes Meta auf der Bestellbearbeitungsseite anzeigen"
+
+#~ msgid "Remove Original Orders"
+#~ msgstr "Originalbestellungen entfernen"
+
+#~ msgid "Sorry your nonce did not verified."
+#~ msgstr "Entschuldigung, Ihre Nonce wurde nicht überprüft."
